@@ -43,6 +43,7 @@ namespace MatchGame
                 timer.Stop();
                 timeTextBlock.Text = timeTextBlock.Text + " - Play again?";
             }
+            
         }
 
         private void SetUpGame()
@@ -65,6 +66,7 @@ namespace MatchGame
             {
                 if (textBlock.Name != "timeTextBlock")
                 {
+                    textBlock.Visibility = Visibility.Visible;
                     int index = random.Next(animalEmoji.Count);
                     string nextEmoji = animalEmoji[index];
                     textBlock.Text = nextEmoji;
@@ -102,7 +104,6 @@ namespace MatchGame
             }
 
         }
-
         private void TimeTextBlock_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (matchesFound == 8)

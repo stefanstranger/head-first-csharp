@@ -39,7 +39,7 @@
         <TextBlock Text="?" Grid.Column="3" Grid.Row="2" FontSize="36" HorizontalAlignment ="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Text="?" Grid.Column="3" Grid.Row="3" FontSize="36" HorizontalAlignment ="Center" VerticalAlignment="Center" MouseDown="TextBlock_MouseDown"/>
         <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" Text="Elpased Time" VerticalAlignment="Center" FontSize="36" Grid.ColumnSpan="4" MouseDown="TimeTextBlock_MouseDown"/>
-    </Grid>
+     </Grid>
 
 </Window>
 
