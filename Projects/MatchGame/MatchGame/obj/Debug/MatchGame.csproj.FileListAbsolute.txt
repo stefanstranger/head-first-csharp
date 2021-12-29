@@ -1,0 +1,16 @@
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\bin\Debug\MatchGame.exe.config
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\bin\Debug\MatchGame.exe
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\bin\Debug\MatchGame.pdb
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MatchGame.csproj.AssemblyReference.cache
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MatchGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MainWindow.baml
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MainWindow.g.cs
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\App.g.cs
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MatchGame_MarkupCompile.cache
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MatchGame.g.resources
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MatchGame.Properties.Resources.resources
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MatchGame.csproj.GenerateResource.cache
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MatchGame.csproj.CoreCompileInputs.cache
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MatchGame.exe
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MatchGame.pdb
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MatchGame\MatchGame\obj\Debug\MatchGame_MarkupCompile.lref

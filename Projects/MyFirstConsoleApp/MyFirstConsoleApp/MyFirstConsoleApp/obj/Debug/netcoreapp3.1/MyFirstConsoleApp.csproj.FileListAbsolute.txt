@@ -1,0 +1,14 @@
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.exe
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.deps.json
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.runtimeconfig.json
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.runtimeconfig.dev.json
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.dll
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\bin\Debug\netcoreapp3.1\MyFirstConsoleApp.pdb
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.csproj.AssemblyReference.cache
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.AssemblyInfoInputs.cache
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.AssemblyInfo.cs
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.dll
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.pdb
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\MyFirstConsoleApp\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\netcoreapp3.1\MyFirstConsoleApp.genruntimeconfig.cache
