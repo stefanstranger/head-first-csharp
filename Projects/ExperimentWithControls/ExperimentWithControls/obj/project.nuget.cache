@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LOTccp1iQPj5UKQvN7m08LlXO2GTCiCSnUEeNVPIyq0bYrCCjtjuW7vzmlclUgqFRnthN7+9c/QiJCx33FUc8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stefstr\\Documents\\Github\\head-first-csharp\\Projects\\ExperimentWithControls\\ExperimentWithControls\\ExperimentWithControls.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stefstr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
