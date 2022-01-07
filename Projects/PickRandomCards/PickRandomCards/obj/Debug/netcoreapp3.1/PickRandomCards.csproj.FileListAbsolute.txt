@@ -1,0 +1,14 @@
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\bin\Debug\netcoreapp3.1\PickRandomCards.exe
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\bin\Debug\netcoreapp3.1\PickRandomCards.deps.json
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\bin\Debug\netcoreapp3.1\PickRandomCards.runtimeconfig.json
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\bin\Debug\netcoreapp3.1\PickRandomCards.runtimeconfig.dev.json
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\bin\Debug\netcoreapp3.1\PickRandomCards.dll
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\bin\Debug\netcoreapp3.1\PickRandomCards.pdb
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\obj\Debug\netcoreapp3.1\PickRandomCards.csproj.AssemblyReference.cache
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\obj\Debug\netcoreapp3.1\PickRandomCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\obj\Debug\netcoreapp3.1\PickRandomCards.AssemblyInfoInputs.cache
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\obj\Debug\netcoreapp3.1\PickRandomCards.AssemblyInfo.cs
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\obj\Debug\netcoreapp3.1\PickRandomCards.csproj.CoreCompileInputs.cache
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\obj\Debug\netcoreapp3.1\PickRandomCards.dll
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\obj\Debug\netcoreapp3.1\PickRandomCards.pdb
+C:\Users\stefstr\Documents\Github\head-first-csharp\Projects\PickRandomCards\PickRandomCards\obj\Debug\netcoreapp3.1\PickRandomCards.genruntimeconfig.cache
