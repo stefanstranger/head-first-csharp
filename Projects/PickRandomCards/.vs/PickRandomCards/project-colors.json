@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0bc0a431-e1b5-44e7-a488-9fea5bbcecf0": {
+      "ProjectGuid": "0bc0a431-e1b5-44e7-a488-9fea5bbcecf0",
+      "DisplayName": "PickRandomCards",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
