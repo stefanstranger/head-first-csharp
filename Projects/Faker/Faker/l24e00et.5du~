@@ -26,13 +26,17 @@ namespace FakerDemo
             // Check if FullName contains Prof, Dr. Mr. Mrs. or Miss If so remove those.
             if (user.FullName.Contains("Prof.") || user.FullName.Contains("Dr.") || user.FullName.Contains("Mr.") || user.FullName.Contains("Mrs.") || user.FullName.Contains("Miss"))
             {
-                user.FirstName = user.FullName.Split(' ')[1];
-                user.LastName = user.FullName.Split(' ')[2];
+                Console.WriteLine("Containing too much info!");
+                String FullName = user.FullName.Replace("Prof.", "");
+                Console.Write(FullName);
+                user.FirstName = FullName.Split(' ')[0];
+                user.LastName = FullName.Split(' ')[1];
             }
             else
             {
-                user.FirstName = user.FullName.Split(' ')[0];
-                user.LastName = user.FullName.Split(' ')[1];
+                String FullName = user.FullName;
+                user.FirstName = FullName.Split(' ')[0];
+                user.LastName = FullName.Split(' ')[1];
             };
             
             return user;
