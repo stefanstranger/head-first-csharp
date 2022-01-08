@@ -1,63 +1,72 @@
 ﻿using System;
-using Faker;
-using Faker.Resources;
-using Newtonsoft.Json;
+using System.Linq;
+using System.Text.Json;
 
-namespace FakerDemo
-{    
-    internal class Program
+for (var i = 0; i < 25; i++)
+{
+    var user = CreateUser();
+
+    var userString = user.ToString();
+
+    // or, if you want JSON:
+    // var userString = JsonSerializer.Serialize(user, new JsonSerializerOptions {WriteIndented = true})
+
+    Console.WriteLine(userString);
+}
+
+User CreateUser()
+{
+    var fullNameInput = Faker.Name.FullName();
+
+    var titles = new[]
     {
-        class User
+        "Prof",
+        "Dr",
+        "Mr",
+        "Mrs",
+        "Miss",
+        "Ms",
+    };
+
+    var index = 0;
+    foreach (var title in titles.OrderByDescending(x => x.Length))
+    {
+        if (!fullNameInput.StartsWith(title))
         {
-            public string FullName { get; set; }
-            public string FirstName { get; set; }
-            public string LastName { get; set; }
-        }
-        static void Main(string[] args)
-        {
-            string json = JsonConvert.SerializeObject(CreateUser());
-            Console.WriteLine(json);
+            continue;
         }
 
-        private static User CreateUser()
+        switch (fullNameInput[title.Length])
         {
-            User user = new User();
-            user.FullName = Faker.Name.FullName();
-            // Check if FullName contains Prof, Dr. Mr. Mrs. or Miss If so remove those.
-            if (user.FullName.Contains("Prof.") || user.FullName.Contains("Dr.") || user.FullName.Contains("Mr.") || user.FullName.Contains("Mrs.") || user.FullName.Contains("Miss") || user.FullName.Contains("Ms"))
-            {
-                user.FirstName = user.FullName.Split(' ')[1];
-                // If FullName string contains more then 2 strings concatinate LastName
-                if (user.FullName.Length > 3)
-                {
-                    String message = String.Format("FullName {0} contains more than 1 LastName {1}.", user.FullName, user.FullName.Split(" ").Length);
-                    int i = (user.FullName.Split(" ").Length);
-                    user.LastName = string.Concat(user.FullName.Split(' ')[2..i]);
-                }
-                else
-                {
-                    user.LastName = user.FullName.Split(' ')[2];
-                }
-                
-            }
-            else
-            {
-                user.FirstName = user.FullName.Split(' ')[0];
-                if (user.FullName.Length > 2)
-                {
-                    int i = (user.FullName.Split(" ").Length);
-                    user.LastName = string.Concat(user.FullName.Split(' ')[1..i]);
-                }
-                else
-                {
-                    user.LastName = user.FullName.Split(' ')[1];
-                }
-                
-            };
-            
-            return user;
+            case ' ':
+                index = title.Length + 1;
+                break;
+            case '.':
+                index = title.Length + 2;
+                break;
+            default:
+                continue;
         }
+
+        break;
     }
 
-    
+    var names = fullNameInput[index..].Split(' ');
+    var user = new User
+    {
+        FullName = fullNameInput,
+        FirstName = names.First(),
+        LastName = string.Join(' ', names.Skip(1))
+    };
+    return user;
+}
+
+
+record User
+{
+    public string FullName { get; set; }
+
+    public string FirstName { get; set; }
+
+    public string LastName { get; set; }
 }
