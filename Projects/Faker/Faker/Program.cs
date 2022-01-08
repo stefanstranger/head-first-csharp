@@ -31,7 +31,6 @@ namespace FakerDemo
                 if (user.FullName.Length > 3)
                 {
                     String message = String.Format("FullName {0} contains more than 1 LastName {1}.", user.FullName, user.FullName.Split(" ").Length);
-                    //Console.WriteLine(message);
                     int i = (user.FullName.Split(" ").Length);
                     user.LastName = string.Concat(user.FullName.Split(' ')[2..i]);
                 }
