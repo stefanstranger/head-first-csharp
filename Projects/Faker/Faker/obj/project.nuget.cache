@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "um7et43hxEXzfMiAOPOVhrbazHMiPEAO7g6xKgo2358vu46JQAU9Aw1N6+O4Yns0KWVl+UMs75uECmGsDYNZcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stefstr\\Documents\\Github\\head-first-csharp\\Projects\\Faker\\Faker\\Faker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stefstr\\.nuget\\packages\\faker.net\\2.0.154\\faker.net.2.0.154.nupkg.sha512",
+    "C:\\Users\\stefstr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\stefstr\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\stefstr\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\stefstr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
