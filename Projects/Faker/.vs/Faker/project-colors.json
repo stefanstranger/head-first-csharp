@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1c51e794-42a8-480b-92ae-41d7b92e7111": {
+      "ProjectGuid": "1c51e794-42a8-480b-92ae-41d7b92e7111",
+      "DisplayName": "Faker",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
