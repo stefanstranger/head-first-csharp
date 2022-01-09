@@ -4,6 +4,8 @@ using Faker;
 using Faker.Resources;
 using Newtonsoft.Json;
 
+#nullable enable
+
 namespace FakerDemo
 {    
     internal class Program
@@ -13,7 +15,7 @@ namespace FakerDemo
         {
             public string FullName { get; set; }
             public string FirstName { get; set; }
-            public string LastName { get; set; }
+            public string? LastName { get; set; }
         }        
 
         static void Main(string[] args)
@@ -33,9 +35,10 @@ namespace FakerDemo
                 case "json":
                     Console.WriteLine(json);
                     break;
-                case "table":
+                case "csv":
                     dynamic table = JsonConvert.DeserializeObject(json);
-                    Console.WriteLine($"FullName: {table.FullName} FirstName: {table.FirstName} LastName: {table.LastName}");
+                    Console.WriteLine($"FullName;FirstName;LastName");
+                    Console.WriteLine($"{table.FullName};{table.FirstName};{table.LastName}");
                     break;
                 default:
                     Console.WriteLine(json);
@@ -80,6 +83,7 @@ namespace FakerDemo
             }
 
             var names = fullNameInput[index..].Split(' ');
+
             var user = new User
             {
                 FullName = fullNameInput,
